@@ -1,0 +1,4747 @@
+GNU Octave, version 4.2.0
+Copyright (C) 2016 John W. Eaton and others.
+This is free software; see the source code for copying conditions.
+There is ABSOLUTELY NO WARRANTY; not even for MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.  For details, type 'warranty'.
+
+Octave was configured for "x86_64-apple-darwin16.x.x".
+
+Additional information about Octave is available at http://www.octave.org.
+
+Please contribute if you find this software useful.
+For more information, visit http://www.octave.org/get-involved.html
+
+Read http://www.octave.org/bugs.html to learn how to submit bug reports.
+For information about changes from previous versions, type 'news'.
+
+octave:1> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.000000
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 0.000000
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+ex2
+Cost at theta found by fminunc: 0.000000
+Expected cost (approx): 0.203
+theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt__ at line 109 column 21
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 110 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 110 column 1
+
+warning: division by zero
+warning: called from
+    plotDecisionBoundary at line 20 column 12
+    ex2 at line 110 column 1
+
+
+Program paused. Press enter to continue.
+g =  0.50000
+error: 'stop' undefined near line 14 column 1
+error: called from
+    sigmoid at line 14 column 1
+    ex2 at line 139 column 6
+octave:1> ans =  2
+octave:2> octave:2> octave:2> 
+octave:2> 
+octave:2> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt_get_axis_arg__ at line 59 column 8
+    line at line 48 column 17
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+g =  0.50000
+error: Invalid call to display.  Correct usage is:
+
+ -- display (OBJ)
+error: called from
+    print_usage at line 91 column 5
+    display at line 48 column 5
+    sigmoid at line 13 column 1
+    ex2 at line 51 column 1
+octave:2> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __default_plot_options__ at line 28 column 15
+    __pltopt__>__pltopt1__ at line 122 column 11
+    __pltopt__ at line 106 column 23
+    __plt__ at line 93 column 26
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+g =
+
+   0.50000   0.50000
+
+error: Invalid call to display.  Correct usage is:
+
+ -- display (OBJ)
+error: called from
+    print_usage at line 91 column 5
+    display at line 48 column 5
+    sigmoid at line 13 column 1
+    ex2 at line 51 column 1
+octave:2> 
+octave:2> 
+octave:2> submit
+== Submitting solutions | Logistic Regression...
+Login (email address): david.benhaiem@laposte.net 
+Token: NiayaYJfZGL29zdc
+g =
+
+   0.731059   0.907824   0.709057
+   0.731059   0.922136   0.334899
+   0.731059   0.594742   0.163526
+   0.731059   0.113327   0.253946
+   0.731059   0.068713   0.614834
+   0.731059   0.318748   0.829636
+   0.731059   0.856421   0.776081
+   0.731059   0.936396   0.440314
+   0.731059   0.754036   0.182098
+   0.731059   0.185608   0.200464
+   0.731059   0.061905   0.501824
+   0.731059   0.188688   0.800797
+   0.731059   0.758071   0.816996
+   0.731059   0.936597   0.556123
+   0.731059   0.854167   0.222265
+   0.731059   0.313759   0.170949
+   0.731059   0.068284   0.388489
+   0.731059   0.114925   0.748133
+   0.731059   0.600466   0.836183
+   0.731059   0.922845   0.662133
+
+== 
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Sigmoid Function |   5 /   5 | Nice work!
+==                    Logistic Regression Cost |   0 /  30 | 
+==                Logistic Regression Gradient |   0 /  30 | 
+==                                     Predict |   0 /   5 | 
+==        Regularized Logistic Regression Cost |   0 /  15 | 
+==    Regularized Logistic Regression Gradient |   0 /  15 | 
+==                                   --------------------------------
+==                                             |   5 / 100 | 
+== 
+octave:3> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt__>__plt2__ at line -1 column -1
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.000000
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 0.000000
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+Cost at theta found by fminunc: 0.000000
+Expected cost (approx): 0.203
+theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    newplot at line 112 column 3
+    plot at line 222 column 9
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    newplot at line 114 column 8
+    plot at line 222 column 9
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: division by zero
+warning: called from
+    plotDecisionBoundary at line 20 column 12
+    ex2 at line 109 column 1
+
+Program paused. Press enter to continue.
+g =  0.50000
+For a student with scores 45 and 85, we predict an admission probability of 0.500000
+Expected value: 0.775 +/- 0.002
+
+Train Accuracy: 40.000000
+Expected accuracy (approx): 89.0
+
+octave:4> 
+octave:4> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt_get_axis_arg__ at line -1 column -1
+    line at line 48 column 17
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+error: costFunction: operator *: nonconformant arguments (op1 is 1x3, op2 is 100x3)
+error: called from
+    costFunction at line 25 column 2
+    ex2 at line 66 column 12
+octave:4> 
+octave:4> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line -1 column -1
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+error: costFunction: operator *: nonconformant arguments (op1 is 1x3, op2 is 100x3)
+error: called from
+    costFunction at line 27 column 5
+    ex2 at line 66 column 12
+octave:4> 
+octave:4> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 60 column 7
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+g =
+
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+   0.50000
+
+error: costFunction: operator *: nonconformant arguments (op1 is 100x1, op2 is 100x1)
+error: called from
+    costFunction at line 25 column 2
+    ex2 at line 66 column 12
+octave:4> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+error: costFunction: operator *: nonconformant arguments (op1 is 100x1, op2 is 100x1)
+error: called from
+    costFunction at line 26 column 2
+    ex2 at line 66 column 12
+octave:4> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 42 column 3
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+parse error near line 26 of file /Users/davidbenhaiem/Documents/Machine Learning/Standford/Exercices/machine-learning-ex2/ex2/costFunction.m
+
+  syntax error
+
+>>> J=sum((-y*log(sigmoid(X*theta).)-(1-y)*log(1-sigmoid(X*theta).))) / m ; 
+                                   ^
+
+error: called from
+    ex2 at line 66 column 12
+octave:4> 
+octave:4> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+error: costFunction: operator *: nonconformant arguments (op1 is 100x1, op2 is 100x1)
+error: called from
+    costFunction at line 26 column 2
+    ex2 at line 66 column 12
+octave:4> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __pltopt__>__pltopt1__ at line 125 column 18
+    __pltopt__ at line 106 column 23
+    __plt__ at line 93 column 26
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    line at line -1 column -1
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+error: costFunction: operator *: nonconformant arguments (op1 is 100x1, op2 is 100x1)
+error: called from
+    costFunction at line 29 column 2
+    ex2 at line 66 column 12
+octave:4> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 42 column 3
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+J = -0.69315
+Cost at initial theta (zeros): -0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+J = -1.2861
+
+Cost at test theta: -1.286115
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+J = -0.69315
+J = -0.69315
+Cost at theta found by fminunc: -0.693147
+Expected cost (approx): 0.203
+theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: division by zero
+warning: called from
+    plotDecisionBoundary at line 20 column 12
+    ex2 at line 109 column 1
+
+
+Program paused. Press enter to continue.
+For a student with scores 45 and 85, we predict an admission probability of 0.500000
+Expected value: 0.775 +/- 0.002
+
+Train Accuracy: 40.000000
+Expected accuracy (approx): 89.0
+
+octave:5> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __pltopt__ at line 106 column 23
+    __plt__ at line 93 column 26
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+error: costFunction: operator *: nonconformant arguments (op1 is 100x1, op2 is 100x1)
+error: called from
+    costFunction at line 29 column 2
+    ex2 at line 66 column 12
+octave:5> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 62 column 5
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+J =
+
+ Columns 1 through 8:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 9 through 16:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 17 through 24:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 25 through 32:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 33 through 40:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 41 through 48:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 49 through 56:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 57 through 64:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 65 through 72:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 73 through 80:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 81 through 88:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 89 through 96:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 97 through 100:
+
+   0.41589   0.41589   0.41589   0.41589
+
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+J =
+
+ Columns 1 through 6:
+
+   1.0063e+00   5.4983e+00   1.4102e+00   2.9928e-03   6.1940e-04   2.2464e+00
+
+ Columns 7 through 12:
+
+   3.2402e-04   3.2861e-01   9.9557e-05   1.1102e-01   3.4827e-02   1.7588e+00
+
+ Columns 13 through 18:
+
+   2.5638e-04   4.8813e-05   7.3829e-01   5.7917e-03   3.1703e-01   8.2114e-01
+
+ Columns 19 through 24:
+
+   9.8187e-05   2.0280e-01   1.2540e+00   4.9722e-04   2.4828e+00   4.9896e+00
+
+ Columns 25 through 30:
+
+   2.7603e-03   4.9897e-02   1.8758e-01   5.2956e-02   1.0617e+00   1.9692e+00
+
+ Columns 31 through 36:
+
+   3.4155e-02   6.6862e-03   7.6742e-01   3.3372e-01   1.1304e+00   1.6199e+00
+
+ Columns 37 through 42:
+
+   4.4807e-02   3.9615e-03   6.7297e-01   1.3377e+00   1.0445e-02   2.5995e+00
+
+ Columns 43 through 48:
+
+   2.0075e-04   2.6305e-01   2.7814e+00   8.5198e-01   2.3743e-03   1.4990e-06
+
+ Columns 49 through 54:
+
+   2.5369e-04   3.4988e-06   6.5364e-04   1.9061e-04   3.5853e-02   3.0135e+00
+
+ Columns 55 through 60:
+
+   2.4002e+00   1.3405e+00   5.4773e-05   1.0685e-01   4.8464e-03   1.4130e-03
+
+ Columns 61 through 66:
+
+   1.5972e-04   4.5235e+00   2.9426e+00   4.8420e+00   1.1596e+00   1.5304e+00
+
+ Columns 67 through 72:
+
+   1.6197e-02   2.2985e+00   1.6870e-05   1.1574e-01   5.2765e+00   7.2189e-03
+
+ Columns 73 through 78:
+
+   3.6228e-05   3.8628e-02   3.0913e-02   1.7553e-05   2.5224e-02   1.5068e-01
+
+ Columns 79 through 84:
+
+   2.0639e+00   1.8969e-01   2.6006e-04   9.8059e-03   3.6054e-02   6.4180e-01
+
+ Columns 85 through 90:
+
+   2.0890e-05   6.5956e-04   3.6321e-01   6.1817e-05   9.4698e-06   9.6097e-01
+
+ Columns 91 through 96:
+
+   2.1200e-05   5.5467e-06   3.4755e+00   2.2974e-04   2.8013e-02   5.3420e-02
+
+ Columns 97 through 100:
+
+   8.5756e-02   3.9908e-05   3.9979e-01   8.5070e-05
+
+
+Cost at test theta: 1.006333
+
+Cost at test theta: 5.498258
+
+Cost at test theta: 1.410167
+
+Cost at test theta: 0.002993
+
+Cost at test theta: 0.000619
+
+Cost at test theta: 2.246408
+
+Cost at test theta: 0.000324
+
+Cost at test theta: 0.328609
+
+Cost at test theta: 0.000100
+
+Cost at test theta: 0.111023
+
+Cost at test theta: 0.034827
+
+Cost at test theta: 1.758847
+
+Cost at test theta: 0.000256
+
+Cost at test theta: 0.000049
+
+Cost at test theta: 0.738295
+
+Cost at test theta: 0.005792
+
+Cost at test theta: 0.317033
+
+Cost at test theta: 0.821144
+
+Cost at test theta: 0.000098
+
+Cost at test theta: 0.202801
+
+Cost at test theta: 1.253968
+
+Cost at test theta: 0.000497
+
+Cost at test theta: 2.482778
+
+Cost at test theta: 4.989556
+
+Cost at test theta: 0.002760
+
+Cost at test theta: 0.049897
+
+Cost at test theta: 0.187576
+
+Cost at test theta: 0.052956
+
+Cost at test theta: 1.061735
+
+Cost at test theta: 1.969188
+
+Cost at test theta: 0.034155
+
+Cost at test theta: 0.006686
+
+Cost at test theta: 0.767420
+
+Cost at test theta: 0.333724
+
+Cost at test theta: 1.130361
+
+Cost at test theta: 1.619872
+
+Cost at test theta: 0.044807
+
+Cost at test theta: 0.003961
+
+Cost at test theta: 0.672973
+
+Cost at test theta: 1.337726
+
+Cost at test theta: 0.010445
+
+Cost at test theta: 2.599452
+
+Cost at test theta: 0.000201
+
+Cost at test theta: 0.263046
+
+Cost at test theta: 2.781394
+
+Cost at test theta: 0.851982
+
+Cost at test theta: 0.002374
+
+Cost at test theta: 0.000001
+
+Cost at test theta: 0.000254
+
+Cost at test theta: 0.000003
+
+Cost at test theta: 0.000654
+
+Cost at test theta: 0.000191
+
+Cost at test theta: 0.035853
+
+Cost at test theta: 3.013463
+
+Cost at test theta: 2.400164
+
+Cost at test theta: 1.340483
+
+Cost at test theta: 0.000055
+
+Cost at test theta: 0.106849
+
+Cost at test theta: 0.004846
+
+Cost at test theta: 0.001413
+
+Cost at test theta: 0.000160
+
+Cost at test theta: 4.523524
+
+Cost at test theta: 2.942630
+
+Cost at test theta: 4.841972
+
+Cost at test theta: 1.159620
+
+Cost at test theta: 1.530387
+
+Cost at test theta: 0.016197
+
+Cost at test theta: 2.298466
+
+Cost at test theta: 0.000017
+
+Cost at test theta: 0.115736
+
+Cost at test theta: 5.276490
+
+Cost at test theta: 0.007219
+
+Cost at test theta: 0.000036
+
+Cost at test theta: 0.038628
+
+Cost at test theta: 0.030913
+
+Cost at test theta: 0.000018
+
+Cost at test theta: 0.025224
+
+Cost at test theta: 0.150677
+
+Cost at test theta: 2.063882
+
+Cost at test theta: 0.189689
+
+Cost at test theta: 0.000260
+
+Cost at test theta: 0.009806
+
+Cost at test theta: 0.036054
+
+Cost at test theta: 0.641798
+
+Cost at test theta: 0.000021
+
+Cost at test theta: 0.000660
+
+Cost at test theta: 0.363211
+
+Cost at test theta: 0.000062
+
+Cost at test theta: 0.000009
+
+Cost at test theta: 0.960965
+
+Cost at test theta: 0.000021
+
+Cost at test theta: 0.000006
+
+Cost at test theta: 3.475489
+
+Cost at test theta: 0.000230
+
+Cost at test theta: 0.028013
+
+Cost at test theta: 0.053420
+
+Cost at test theta: 0.085756
+
+Cost at test theta: 0.000040
+
+Cost at test theta: 0.399793
+
+Cost at test theta: 0.000085
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+J =
+
+ Columns 1 through 8:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 9 through 16:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 17 through 24:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 25 through 32:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 33 through 40:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 41 through 48:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 49 through 56:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 57 through 64:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 65 through 72:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 73 through 80:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 81 through 88:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 89 through 96:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 97 through 100:
+
+   0.41589   0.41589   0.41589   0.41589
+
+J =
+
+ Columns 1 through 8:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 9 through 16:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 17 through 24:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 25 through 32:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 33 through 40:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 41 through 48:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 49 through 56:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 57 through 64:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 65 through 72:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 73 through 80:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 81 through 88:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 89 through 96:
+
+   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589   0.41589
+
+ Columns 97 through 100:
+
+   0.41589   0.41589   0.41589   0.41589
+
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Expected cost (approx): 0.203
+theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __pltopt__>__pltopt1__ at line 147 column 5
+    __pltopt__ at line 106 column 23
+    __plt__ at line 93 column 26
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    line at line -1 column -1
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: division by zero
+warning: called from
+    plotDecisionBoundary at line 20 column 12
+    ex2 at line 109 column 1
+
+Program paused. Press enter to continue.
+
+For a student with scores 45 and 85, we predict an admission probability of 0.500000
+Expected value: 0.775 +/- 0.002
+
+Train Accuracy: 40.000000
+Expected accuracy (approx): 89.0
+
+octave:6> 
+octave:6> 
+octave:6> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 38 column 3
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+error: costFunction: operator *: nonconformant arguments (op1 is 100x1, op2 is 100x100)
+error: called from
+    costFunction at line 29 column 2
+    ex2 at line 66 column 12
+octave:6> 
+octave:6> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 62 column 5
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Cost at initial theta (zeros): 0.415888
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 1.006333
+
+Cost at test theta: 5.498258
+
+Cost at test theta: 1.410167
+
+Cost at test theta: 0.002993
+
+Cost at test theta: 0.000619
+
+Cost at test theta: 2.246408
+
+Cost at test theta: 0.000324
+
+Cost at test theta: 0.328609
+
+Cost at test theta: 0.000100
+
+Cost at test theta: 0.111023
+
+Cost at test theta: 0.034827
+
+Cost at test theta: 1.758847
+
+Cost at test theta: 0.000256
+
+Cost at test theta: 0.000049
+
+Cost at test theta: 0.738295
+
+Cost at test theta: 0.005792
+
+Cost at test theta: 0.317033
+
+Cost at test theta: 0.821144
+
+Cost at test theta: 0.000098
+
+Cost at test theta: 0.202801
+
+Cost at test theta: 1.253968
+
+Cost at test theta: 0.000497
+
+Cost at test theta: 2.482778
+
+Cost at test theta: 4.989556
+
+Cost at test theta: 0.002760
+
+Cost at test theta: 0.049897
+
+Cost at test theta: 0.187576
+
+Cost at test theta: 0.052956
+
+Cost at test theta: 1.061735
+
+Cost at test theta: 1.969188
+
+Cost at test theta: 0.034155
+
+Cost at test theta: 0.006686
+
+Cost at test theta: 0.767420
+
+Cost at test theta: 0.333724
+
+Cost at test theta: 1.130361
+
+Cost at test theta: 1.619872
+
+Cost at test theta: 0.044807
+
+Cost at test theta: 0.003961
+
+Cost at test theta: 0.672973
+
+Cost at test theta: 1.337726
+
+Cost at test theta: 0.010445
+
+Cost at test theta: 2.599452
+
+Cost at test theta: 0.000201
+
+Cost at test theta: 0.263046
+
+Cost at test theta: 2.781394
+
+Cost at test theta: 0.851982
+
+Cost at test theta: 0.002374
+
+Cost at test theta: 0.000001
+
+Cost at test theta: 0.000254
+
+Cost at test theta: 0.000003
+
+Cost at test theta: 0.000654
+
+Cost at test theta: 0.000191
+
+Cost at test theta: 0.035853
+
+Cost at test theta: 3.013463
+
+Cost at test theta: 2.400164
+
+Cost at test theta: 1.340483
+
+Cost at test theta: 0.000055
+
+Cost at test theta: 0.106849
+
+Cost at test theta: 0.004846
+
+Cost at test theta: 0.001413
+
+Cost at test theta: 0.000160
+
+Cost at test theta: 4.523524
+
+Cost at test theta: 2.942630
+
+Cost at test theta: 4.841972
+
+Cost at test theta: 1.159620
+
+Cost at test theta: 1.530387
+
+Cost at test theta: 0.016197
+
+Cost at test theta: 2.298466
+
+Cost at test theta: 0.000017
+
+Cost at test theta: 0.115736
+
+Cost at test theta: 5.276490
+
+Cost at test theta: 0.007219
+
+Cost at test theta: 0.000036
+
+Cost at test theta: 0.038628
+
+Cost at test theta: 0.030913
+
+Cost at test theta: 0.000018
+
+Cost at test theta: 0.025224
+
+Cost at test theta: 0.150677
+
+Cost at test theta: 2.063882
+
+Cost at test theta: 0.189689
+
+Cost at test theta: 0.000260
+
+Cost at test theta: 0.009806
+
+Cost at test theta: 0.036054
+
+Cost at test theta: 0.641798
+
+Cost at test theta: 0.000021
+
+Cost at test theta: 0.000660
+
+Cost at test theta: 0.363211
+
+Cost at test theta: 0.000062
+
+Cost at test theta: 0.000009
+
+Cost at test theta: 0.960965
+
+Cost at test theta: 0.000021
+
+Cost at test theta: 0.000006
+
+Cost at test theta: 3.475489
+
+Cost at test theta: 0.000230
+
+Cost at test theta: 0.028013
+
+Cost at test theta: 0.053420
+
+Cost at test theta: 0.085756
+
+Cost at test theta: 0.000040
+
+Cost at test theta: 0.399793
+
+Cost at test theta: 0.000085
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Cost at theta found by fminunc: 0.415888
+Expected cost (approx): 0.203
+theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt__ at line 43 column 7
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    __plt__ at line 43 column 7
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: division by zero
+warning: called from
+    plotDecisionBoundary at line 20 column 12
+    ex2 at line 109 column 1
+
+Program paused. Press enter to continue.
+ex2
+For a student with scores 45 and 85, we predict an admission probability of 0.500000
+Expected value: 0.775 +/- 0.002
+
+Train Accuracy: 40.000000
+Expected accuracy (approx): 89.0
+
+octave:7> error: 'x2' undefined near line 1 column 1
+octave:7> 
+octave:7> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 42 column 3
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+error: costFunction: operator *: nonconformant arguments (op1 is 100x1, op2 is 100x100)
+error: called from
+    costFunction at line 29 column 2
+    ex2 at line 66 column 12
+octave:7> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt__ at line 43 column 7
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    __plt__ at line 43 column 7
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+error: costFunction: operator *: nonconformant arguments (op1 is 100x1, op2 is 100x100)
+error: called from
+    costFunction at line 29 column 2
+    ex2 at line 66 column 12
+octave:7> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    newplot at line 145 column 3
+    plot at line 222 column 9
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    newplot at line 145 column 3
+    plot at line 222 column 9
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 1.089090
+
+Cost at test theta: 5.498300
+
+Cost at test theta: 1.450246
+
+Cost at test theta: 2.124280
+
+Cost at test theta: 2.751201
+
+Cost at test theta: 2.255985
+
+Cost at test theta: 3.009987
+
+Cost at test theta: 0.673983
+
+Cost at test theta: 3.481714
+
+Cost at test theta: 0.822336
+
+Cost at test theta: 1.184992
+
+Cost at test theta: 1.780765
+
+Cost at test theta: 3.103549
+
+Cost at test theta: 3.766744
+
+Cost at test theta: 0.876504
+
+Cost at test theta: 1.863925
+
+Cost at test theta: 0.673238
+
+Cost at test theta: 0.938608
+
+Cost at test theta: 3.487255
+
+Cost at test theta: 0.702381
+
+Cost at test theta: 1.306784
+
+Cost at test theta: 2.838920
+
+Cost at test theta: 2.489212
+
+Cost at test theta: 4.989654
+
+Cost at test theta: 2.156317
+
+Cost at test theta: 1.061200
+
+Cost at test theta: 0.713572
+
+Cost at test theta: 1.041465
+
+Cost at test theta: 1.136464
+
+Cost at test theta: 1.984499
+
+Cost at test theta: 1.191898
+
+Cost at test theta: 1.807664
+
+Cost at test theta: 0.897882
+
+Cost at test theta: 0.674469
+
+Cost at test theta: 1.196307
+
+Cost at test theta: 1.647707
+
+Cost at test theta: 1.097474
+
+Cost at test theta: 2.013406
+
+Cost at test theta: 0.830636
+
+Cost at test theta: 1.383252
+
+Cost at test theta: 1.634244
+
+Cost at test theta: 2.604741
+
+Cost at test theta: 3.201318
+
+Cost at test theta: 0.677370
+
+Cost at test theta: 2.785293
+
+Cost at test theta: 0.962664
+
+Cost at test theta: 2.216056
+
+Cost at test theta: 5.159956
+
+Cost at test theta: 3.107774
+
+Cost at test theta: 4.820907
+
+Cost at test theta: 2.729724
+
+Cost at test theta: 3.222042
+
+Cost at test theta: 1.174741
+
+Cost at test theta: 3.016107
+
+Cost at test theta: 2.407556
+
+Cost at test theta: 1.385788
+
+Cost at test theta: 3.720668
+
+Cost at test theta: 0.832142
+
+Cost at test theta: 1.933938
+
+Cost at test theta: 2.422357
+
+Cost at test theta: 3.292710
+
+Cost at test theta: 4.523737
+
+Cost at test theta: 2.945607
+
+Cost at test theta: 4.842097
+
+Cost at test theta: 1.222168
+
+Cost at test theta: 1.562885
+
+Cost at test theta: 1.466415
+
+Cost at test theta: 2.307239
+
+Cost at test theta: 4.191679
+
+Cost at test theta: 0.811942
+
+Cost at test theta: 5.276551
+
+Cost at test theta: 1.777712
+
+Cost at test theta: 3.885987
+
+Cost at test theta: 1.148612
+
+Cost at test theta: 1.227474
+
+Cost at test theta: 4.175798
+
+Cost at test theta: 1.301251
+
+Cost at test theta: 0.752569
+
+Cost at test theta: 2.076921
+
+Cost at test theta: 0.711872
+
+Cost at test theta: 3.097848
+
+Cost at test theta: 1.658648
+
+Cost at test theta: 1.172779
+
+Cost at test theta: 0.809902
+
+Cost at test theta: 4.106187
+
+Cost at test theta: 2.726126
+
+Cost at test theta: 0.678971
+
+Cost at test theta: 3.672282
+
+Cost at test theta: 4.422644
+
+Cost at test theta: 1.051009
+
+Cost at test theta: 4.100310
+
+Cost at test theta: 4.636597
+
+Cost at test theta: 3.476711
+
+Cost at test theta: 3.147409
+
+Cost at test theta: 1.263016
+
+Cost at test theta: 1.038590
+
+Cost at test theta: 0.892171
+
+Cost at test theta: 3.847300
+
+Cost at test theta: 0.688078
+
+Cost at test theta: 3.544598
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Cost at theta found by fminunc: 0.693147
+Expected cost (approx): 0.203
+theta: 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    newplot at line 215 column 1
+    plot at line 222 column 9
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    __plt__ at line 41 column 11
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: division by zero
+warning: called from
+    plotDecisionBoundary at line 20 column 12
+    ex2 at line 109 column 1
+
+
+Program paused. Press enter to continue.
+For a student with scores 45 and 85, we predict an admission probability of 0.500000
+Expected value: 0.775 +/- 0.002
+
+Train Accuracy: 40.000000
+Expected accuracy (approx): 89.0
+
+octave:8> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __line__ at line 108 column 13
+    line at line 56 column 8
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ -23.372059 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 1.089090
+
+Cost at test theta: 5.498300
+
+Cost at test theta: 1.450246
+
+Cost at test theta: 2.124280
+
+Cost at test theta: 2.751201
+
+Cost at test theta: 2.255985
+
+Cost at t
+est theta: 3.009987
+
+Cost at test theta: 0.673983
+
+Cost at test theta: 3.481714
+
+Cost at test theta: 0.822336
+
+Cost at test theta: 1.184992
+
+Cost at test theta: 1.780765
+
+Cost at test theta: 3.103549
+
+Cost at test theta: 3.766744
+
+Cost at test theta: 0.876504
+
+Cost at test theta: 1.863925
+
+Cost at test theta: 0.673238
+
+Cost at test theta: 0.938608
+
+Cost at test theta: 3.487255
+
+Cost at test theta: 0.702381
+
+Cost at test theta: 1.306784
+
+Cost at test theta: 2.838920
+
+Cost at test theta: 2.489212
+
+Cost at test theta: 4.989654
+
+Cost at test theta: 2.156317
+
+Cost at test theta: 1.061200
+
+Cost at test theta: 0.713572
+
+Cost at test theta: 1.041465
+
+Cost at test theta: 1.136464
+
+Cost at test theta: 1.984499
+
+Cost at test theta: 1.191898
+
+Cost at test theta: 1.807664
+
+Cost at test theta: 0.897882
+
+Cost at test theta: 0.674469
+
+Cost at test theta: 1.196307
+
+Cost at test theta: 1.647707
+
+Cost at test theta: 1.097474
+
+Cost at test theta: 2.013406
+
+Cost at test theta: 0.830636
+
+Cost at test theta: 1.383252
+
+Cost at test theta: 1.634244
+
+Cost at test theta: 2.604741
+
+Cost at test theta: 3.201318
+
+Cost at test theta: 0.677370
+
+Cost at test theta: 2.785293
+
+Cost at test theta: 0.962664
+
+Cost at test theta: 2.216056
+
+Cost at test theta: 5.159956
+
+Cost at test theta: 3.107774
+
+Cost at test theta: 4.820907
+
+Cost at test theta: 2.729724
+
+Cost at test theta: 3.222042
+
+Cost at test theta: 1.174741
+
+Cost at test theta: 3.016107
+
+Cost at test theta: 2.407556
+
+Cost at test theta: 1.385788
+
+Cost at test theta: 3.720668
+
+Cost at test theta: 0.832142
+
+Cost at test theta: 1.933938
+
+Cost at test theta: 2.422357
+
+Cost at test theta: 3.292710
+
+Cost at test theta: 4.523737
+
+Cost at test theta: 2.945607
+
+Cost at test theta: 4.842097
+
+Cost at test theta: 1.222168
+
+Cost at test theta: 1.562885
+
+Cost at test theta: 1.466415
+
+Cost at test theta: 2.307239
+
+Cost at test theta: 4.191679
+
+Cost at test theta: 0.811942
+
+Cost at test theta: 5.276551
+
+Cost at test theta: 1.777712
+
+Cost at test theta: 3.885987
+
+Cost at test theta: 1.148612
+
+Cost at test theta: 1.227474
+
+Cost at test theta: 4.175798
+
+Cost at test theta: 1.301251
+
+Cost at test theta: 0.752569
+
+Cost at test theta: 2.076921
+
+Cost at test theta: 0.711872
+
+Cost at test theta: 3.097848
+
+Cost at test theta: 1.658648
+
+Cost at test theta: 1.172779
+
+Cost at test theta: 0.809902
+
+Cost at test theta: 4.106187
+
+Cost at test theta: 2.726126
+
+Cost at test theta: 0.678971
+
+Cost at test theta: 3.672282
+
+Cost at test theta: 4.422644
+
+Cost at test theta: 1.051009
+
+Cost at test theta: 4.100310
+
+Cost at test theta: 4.636597
+
+Cost at test theta: 3.476711
+
+Cost at test theta: 3.147409
+
+Cost at test theta: 1.263016
+
+Cost at test theta: 1.038590
+
+Cost at test theta: 0.892171
+
+Cost at test theta: 3.847300
+
+Cost at test theta: 0.688078
+
+Cost at test theta: 3.544598
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 5.255934 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+error: __doglegm__: operator \: nonconformant arguments (op1 is 3x3, op2 is 1x1)
+error: called from
+    fminunc>__doglegm__ at line 444 column 5
+    fminunc at line 252 column 9
+    ex2 at line 97 column 13
+octave:8> 
+octave:8> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ -0.100000 
+ -12.009217 
+ -11.262842 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 1.089090
+
+Cost at test theta: 5.498300
+
+Cost at test theta: 1.450246
+
+Cost at test theta: 2.124280
+
+Cost at test theta: 2.751201
+
+Cost at test theta: 2.255985
+
+Cost at test theta: 3.009987
+
+Cost at test theta: 0.673983
+
+Cost at test theta: 3.481714
+
+Cost at test theta: 0.822336
+
+Cost at test theta: 1.184992
+
+Cost at test theta: 1.780765
+
+Cost at test theta: 3.103549
+
+Cost at test theta: 3.766744
+
+Cost at test theta: 0.876504
+
+Cost at test theta: 1.863925
+
+Cost at test theta: 0.673238
+
+Cost at test theta: 0.938608
+
+Cost at test theta: 3.487255
+
+Cost at test theta: 0.702381
+
+Cost at test theta: 1.306784
+
+Cost at test theta: 2.838920
+
+Cost at test theta: 2.489212
+
+Cost at test theta: 4.989654
+
+Cost at test theta: 2.156317
+
+Cost at test theta: 1.061200
+
+Cost at test theta: 0.713572
+
+Cost at test theta: 1.041465
+
+Cost at test theta: 1.136464
+
+Cost at test theta: 1.984499
+
+Cost at test theta: 1.191898
+
+Cost at test theta: 1.807664
+
+Cost at test theta: 0.897882
+
+Cost at test theta: 0.674469
+
+Cost at test theta: 1.196307
+
+Cost at test theta: 1.647707
+
+Cost at test theta: 1.097474
+
+Cost at test theta: 2.013406
+
+Cost at test theta: 0.830636
+
+Cost at test theta: 1.383252
+
+Cost at test theta: 1.634244
+
+Cost at test theta: 2.604741
+
+Cost at test theta: 3.201318
+
+Cost at test theta: 0.677370
+
+Cost at test theta: 2.785293
+
+Cost at test theta: 0.962664
+
+Cost at test theta: 2.216056
+
+Cost at test theta: 5.159956
+
+Cost at test theta: 3.107774
+
+Cost at test theta: 4.820907
+
+Cost at test theta: 2.729724
+
+Cost at test theta: 3.222042
+
+Cost at test theta: 1.174741
+
+Cost at test theta: 3.016107
+
+Cost at test theta: 2.407556
+
+Cost at test theta: 1.385788
+
+Cost at test theta: 3.720668
+
+Cost at test theta: 0.832142
+
+Cost at test theta: 1.933938
+
+Cost at test theta: 2.422357
+
+Cost at test theta: 3.292710
+
+Cost at test theta: 4.523737
+
+Cost at test theta: 2.945607
+
+Cost at test theta: 4.842097
+
+Cost at test theta: 1.222168
+
+Cost at test theta: 1.562885
+
+Cost at test theta: 1.466415
+
+Cost at test theta: 2.307239
+
+Cost at test theta: 4.191679
+
+Cost at test theta: 0.811942
+
+Cost at test theta: 5.276551
+
+Cost at test theta: 1.777712
+
+Cost at test theta: 3.885987
+
+Cost at test theta: 1.148612
+
+Cost at test theta: 1.227474
+
+Cost at test theta: 4.175798
+
+Cost at test theta: 1.301251
+
+Cost at test theta: 0.752569
+
+Cost at test theta: 2.076921
+
+Cost at test theta: 0.711872
+
+Cost at test theta: 3.097848
+
+Cost at test theta: 1.658648
+
+Cost at test theta: 1.172779
+
+Cost at test theta: 0.809902
+
+Cost at test theta: 4.106187
+
+Cost at test theta: 2.726126
+
+Cost at test theta: 0.678971
+
+Cost at test theta: 3.672282
+
+Cost at test theta: 4.422644
+
+Cost at test theta: 1.051009
+
+Cost at test theta: 4.100310
+
+Cost at test theta: 4.636597
+
+Cost at test theta: 3.476711
+
+Cost at test theta: 3.147409
+
+Cost at test theta: 1.263016
+
+Cost at test theta: 1.038590
+
+Cost at test theta: 0.892171
+
+Cost at test theta: 3.847300
+
+Cost at test theta: 0.688078
+
+Cost at test theta: 3.544598
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.042903 
+ 2.566234 
+ 2.646797 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+error: fminunc: operator /: nonconformant arguments (op1 is 1x1, op2 is 1x100)
+error: called from
+    fminunc at line 273 column 16
+    ex2 at line 97 column 13
+octave:8> 
+octave:8> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __line__ at line 63 column 16
+    line at line 56 column 8
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ -0.100000 
+ -12.009217 
+ -11.262842 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 1.089090
+
+Cost at test theta: 5.498300
+
+Cost at test theta: 1.450246
+
+Cost at test theta: 2.124280
+
+Cost at test theta: 2.751201
+
+Cost at test theta: 2.255985
+
+Cost at test theta: 3.009987
+
+Cost at test theta: 0.673983
+
+Cost at test theta: 3.481714
+
+Cost at test theta: 0.822336
+
+Cost at test theta: 1.18
+4992
+
+Cost at test theta: 1.780765
+
+Cost at test theta: 3.103549
+
+Cost at test theta: 3.766744
+
+Cost at test theta: 0.876504
+
+Cost at test theta: 1.863925
+
+Cost at test theta: 0.673238
+
+Cost at test theta: 0.938608
+
+Cost at test theta: 3.487255
+
+Cost at test theta: 0.702381
+
+Cost at test theta: 1.306784
+
+Cost at test theta: 2.838920
+
+Cost at test theta: 2.489212
+
+Cost at test theta: 4.989654
+
+Cost at test theta: 2.156317
+
+Cost at test theta: 1.061200
+
+Cost at test theta: 0.713572
+
+Cost at test theta: 1.041465
+
+Cost at test theta: 1.136464
+
+Cost at test theta: 1.984499
+
+Cost at test theta: 1.191898
+
+Cost at test theta: 1.807664
+
+Cost at test theta: 0.897882
+
+Cost at test theta: 0.674469
+
+Cost at test theta: 1.196307
+
+Cost at test theta: 1.647707
+
+Cost at test theta: 1.097474
+
+Cost at test theta: 2.013406
+
+Cost at test theta: 0.830636
+
+Cost at test theta: 1.383252
+
+Cost at test theta: 1.634244
+
+Cost at test theta: 2.604741
+
+Cost at test theta: 3.201318
+
+Cost at test theta: 0.677370
+
+Cost at test theta: 2.785293
+
+Cost at test theta: 0.962664
+
+Cost at test theta: 2.216056
+
+Cost at test theta: 5.159956
+
+Cost at test theta: 3.107774
+
+Cost at test theta: 4.820907
+
+Cost at test theta: 2.729724
+
+Cost at test theta: 3.222042
+
+Cost at test theta: 1.174741
+
+Cost at test theta: 3.016107
+
+Cost at test theta: 2.407556
+
+Cost at test theta: 1.385788
+
+Cost at test theta: 3.720668
+
+Cost at test theta: 0.832142
+
+Cost at test theta: 1.933938
+
+Cost at test theta: 2.422357
+
+Cost at test theta: 3.292710
+
+Cost at test theta: 4.523737
+
+Cost at test theta: 2.945607
+
+Cost at test theta: 4.842097
+
+Cost at test theta: 1.222168
+
+Cost at test theta: 1.562885
+
+Cost at test theta: 1.466415
+
+Cost at test theta: 2.307239
+
+Cost at test theta: 4.191679
+
+Cost at test theta: 0.811942
+
+Cost at test theta: 5.276551
+
+Cost at test theta: 1.777712
+
+Cost at test theta: 3.885987
+
+Cost at test theta: 1.148612
+
+Cost at test theta: 1.227474
+
+Cost at test theta: 4.175798
+
+Cost at test theta: 1.301251
+
+Cost at test theta: 0.752569
+
+Cost at test theta: 2.076921
+
+Cost at test theta: 0.711872
+
+Cost at test theta: 3.097848
+
+Cost at test theta: 1.658648
+
+Cost at test theta: 1.172779
+
+Cost at test theta: 0.809902
+
+Cost at test theta: 4.106187
+
+Cost at test theta: 2.726126
+
+Cost at test theta: 0.678971
+
+Cost at test theta: 3.672282
+
+Cost at test theta: 4.422644
+
+Cost at test theta: 1.051009
+
+Cost at test theta: 4.100310
+
+Cost at test theta: 4.636597
+
+Cost at test theta: 3.476711
+
+Cost at test theta: 3.147409
+
+Cost at test theta: 1.263016
+
+Cost at test theta: 1.038590
+
+Cost at test theta: 0.892171
+
+Cost at test theta: 3.847300
+
+Cost at test theta: 0.688078
+
+Cost at test theta: 3.544598
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.042903 
+ 2.566234 
+ 2.646797 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+error: fminunc: operator /: nonconformant arguments (op1 is 1x1, op2 is 1x100)
+error: called from
+    fminunc at line 273 column 16
+    ex2 at line 97 column 13
+octave:8> 
+octave:8> submit
+== Submitting solutions | Logistic Regression...
+Use token from last successful submission (david.benhaiem@laposte.net )? (Y/n): Y 
+== 
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Sigmoid Function |   5 /   5 | Nice work!
+==                    Logistic Regression Cost |   0 /  30 | 
+==                Logistic Regression Gradient |  30 /  30 | Nice work!
+==                                     Predict |   0 /   5 | 
+==        Regularized Logistic Regression Cost |   0 /  15 | 
+==    Regularized Logistic Regression Gradient |   0 /  15 | 
+==                                   --------------------------------
+==                                             |  35 / 100 | 
+== 
+octave:9> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __pltopt__ at line 112 column 1
+    __plt__ at line 93 column 26
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+ans =
+
+   100     3
+
+error: 'stop' undefined near line 30 column 1
+error: called from
+    costFunction at line 30 column 1
+    ex2 at line 66 column 12
+octave:9> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 38 column 3
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+ans =
+
+   100     3
+
+ans =
+
+   100     1
+
+ans =
+
+   3   1
+
+error: 'stop' undefined near line 32 column 1
+error: called from
+    costFunction at line 32 column 1
+    ex2 at line 66 column 12
+octave:9> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    gca at line 56 column 7
+    newplot at line 148 column 8
+    plot at line 222 column 9
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gca at line 56 column 7
+    newplot at line 148 column 8
+    plot at line 222 column 9
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+ex2
+ans =
+
+   100     1
+
+ans =
+
+   3   1
+
+ans =
+
+   100     3
+
+error: 'stop' undefined near line 32 column 1
+error: called from
+    costFunction at line 32 column 1
+    ex2 at line 66 column 12
+octave:9> error: 'x2' undefined near line 1 column 1
+octave:9> 
+octave:9> 
+octave:9> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __pltopt__ at line 106 column 23
+    __plt__ at line 93 column 26
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+ans =
+
+   100     1
+
+ans =
+
+   3   1
+
+ans =
+
+   100     3
+
+error: 'stop' undefined near line 32 column 1
+error: called from
+    costFunction at line 32 column 1
+    ex2 at line 66 column 12
+octave:9> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 38 column 3
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+error: costFunction: operator *: nonconformant arguments (op1 is 100x1, op2 is 100x1)
+error: called from
+    costFunction at line 33 column 2
+    ex2 at line 66 column 12
+octave:9> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 57 column 3
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ -0.100000 
+ -12.009217 
+ -11.262842 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 0.218330
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.042903 
+ 2.566234 
+ 2.646797 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+Cost at theta found by fminunc: 0.203498
+Expected cost (approx): 0.203
+theta: 
+ -25.161272 
+ 0.206233 
+ 0.201470 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt__ at line 112 column 11
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+
+Program paused. Press enter to continue.
+
+For a student with scores 45 and 85, we predict an admission probability of 0.776289
+Expected value: 0.775 +/- 0.002
+
+Train Accuracy: 40.000000
+Expected accuracy (approx): 89.0
+
+octave:10> submit
+== Submitting solutions | Logistic Regression...
+Use token from last successful submission (david.benhaiem@laposte.net )? (Y/n): Y 
+== 
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Sigmoid Function |   5 /   5 | Nice work!
+==                    Logistic Regression Cost |  30 /  30 | Nice work!
+==                Logistic Regression Gradient |  30 /  30 | Nice work!
+==                                     Predict |   0 /   5 | 
+==        Regularized Logistic Regression Cost |   0 /  15 | 
+==    Regularized Logistic Regression Gradient |   0 /  15 | 
+==                                   --------------------------------
+==                                             |  65 / 100 | 
+== 
+octave:11> 
+octave:11> submit 
+== Submitting solutions | Logistic Regression...
+Use token from last successful submission (david.benhaiem@laposte.net )? (Y/n): Y 
+== 
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Sigmoid Function |   5 /   5 | Nice work!
+==                    Logistic Regression Cost |  30 /  30 | Nice work!
+==                Logistic Regression Gradient |  30 /  30 | Nice work!
+==                                     Predict |   0 /   5 | 
+==        Regularized Logistic Regression Cost |   0 /  15 | 
+==    Regularized Logistic Regression Gradient |   0 /  15 | 
+==                                   --------------------------------
+==                                             |  65 / 100 | 
+== 
+octave:12> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ -0.100000 
+ -12.009217 
+ -11.262842 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 0.218330
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.042903 
+ 2.566234 
+ 2.646797 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+Cost at theta found by fminunc: 0.203498
+Expected cost (approx): 0.203
+theta: 
+ -25.161272 
+ 0.206233 
+ 0.201470 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+
+Program paused. Press enter to continue.
+
+For a student with scores 45 and 85, we predict an admission probability of 0.776289
+Expected value: 0.775 +/- 0.002
+
+Train Accuracy: 40.000000
+Expected accuracy (approx): 89.0
+
+octave:13> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt__>__plt2vv__ at line -1 column -1
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ -0.100000 
+ -12.009217 
+ -11.262842 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 0.218330
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.042903 
+ 2.566234 
+ 2.646797 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+Cost at theta found by fminunc: 0.203498
+Expected cost (approx): 0.203
+theta: 
+ -25.161272 
+ 0.206233 
+ 0.201470 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt__>__plt2vv__ at line 488 column 3
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+
+Program paused. Press enter to continue.
+
+For a student with scores 45 and 85, we predict an admission probability of 0.776289
+Expected value: 0.775 +/- 0.002
+
+error: predict: operator *: nonconformant arguments (op1 is 1x3, op2 is 100x3)
+error: called from
+    predict at line 18 column 2
+    ex2 at line 144 column 3
+octave:13> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __line__ at line 72 column 14
+    line at line 56 column 8
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ -0.100000 
+ -12.009217 
+ -11.262842 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 0.218330
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.042903 
+ 2.566234 
+ 2.646797 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+
+Cost at theta found by fminunc: 0.203498
+Expected cost (approx): 0.203
+theta: 
+ -25.161272 
+ 0.206233 
+ 0.201470 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+
+Program paused. Press enter to continue.
+For a student with scores 45 and 85, we predict an admission probability of 0.776289
+Expected value: 0.775 +/- 0.002
+
+p =
+
+   9.1033e-02
+   4.2260e-05
+   4.3909e-02
+   9.9042e-01
+   9.9820e-01
+   1.0798e-02
+   9.9898e-01
+   4.2324e-01
+   9.9971e-01
+   7.3540e-01
+   9.0968e-01
+   2.8599e-02
+   9.9927e-01
+   9.9985e-01
+   1.5604e-01
+   9.8096e-01
+   4.2773e-01
+   1.4880e-01
+   9.9971e-01
+   5.7430e-01
+   6.6839e-02
+   9.9863e-01
+   7.4183e-03
+   1.0116e-04
+   9.9188e-01
+   8.5505e-01
+   6.0032e-01
+   8.6520e-01
+   9.2394e-02
+   1.6829e-02
+   8.9713e-01
+   9.8104e-01
+   1.5491e-01
+   3.9194e-01
+   7.4129e-02
+   3.3112e-02
+   8.5226e-01
+   9.8756e-01
+   2.0400e-01
+   4.9580e-02
+   9.7030e-01
+   6.1185e-03
+   9.9946e-01
+   5.0231e-01
+   4.4889e-03
+   1.3703e-01
+   9.9299e-01
+   1.0000e+00
+   9.9920e-01
+   9.9999e-01
+   9.9811e-01
+   9.9950e-01
+   9.0502e-01
+   2.8062e-03
+   8.5230e-03
+   5.2892e-02
+   9.9986e-01
+   6.9370e-01
+   9.8550e-01
+   9.9573e-01
+   9.9953e-01
+   2.2238e-04
+   3.5056e-03
+   1.2707e-04
+   7.1658e-02
+   4.0879e-02
+   9.4442e-01
+   1.0071e-02
+   9.9995e-01
+   7.0931e-01
+   6.2041e-05
+   9.7740e-01
+   9.9989e-01
+   8.8428e-01
+   9.0524e-01
+   9.9995e-01
+   9.1769e-01
+   6.2675e-01
+   1.5841e-02
+   5.9949e-01
+   9.9928e-01
+   9.7347e-01
+   8.9454e-01
+   2.0320e-01
+   9.9994e-01
+   9.9798e-01
+   3.5456e-01
+   9.9982e-01
+   9.9997e-01
+   1.0696e-01
+   9.9994e-01
+   9.9999e-01
+   1.4244e-03
+   9.9932e-01
+   9.2458e-01
+   8.5865e-01
+   7.5088e-01
+   9.9990e-01
+   3.3928e-01
+   9.9975e-01
+
+error: 'stop' undefined near line 20 column 1
+error: called from
+    predict at line 20 column 1
+    ex2 at line 144 column 3
+octave:13> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    axes at line 58 column 8
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ -0.100000 
+ -12.009217 
+ -11.262842 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 0.218330
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.042903 
+ 2.566234 
+ 2.646797 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+Cost at theta found by fminunc: 0.203498
+Expected cost (approx): 0.203
+theta: 
+ -25.161272 
+ 0.206233 
+ 0.201470 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt__ at line 43 column 7
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    __plt__ at line 43 column 7
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+
+
+Program paused. Press enter to continue.
+For a student with scores 45 and 85, we predict an admission probability of 0.776289
+Expected value: 0.775 +/- 0.002
+
+error: 'int' undefined near line 18 column 3
+error: called from
+    predict at line 18 column 2
+    ex2 at line 144 column 3
+octave:13> 
+octave:13> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    ancestor at line 60 column 7
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    ancestor at line 64 column 9
+    axes at line 68 column 7
+    gca at line 58 column 9
+    hold at line 62 column 9
+    plotData at line 7 column 9
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ -0.100000 
+ -12.009217 
+ -11.262842 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 0.218330
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.042903 
+ 2.566234 
+ 2.646797 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+Cost at theta found by fminunc: 0.203498
+Expected cost (approx): 0.203
+theta: 
+ -25.161272 
+ 0.206233 
+ 0.201470 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __pltopt__>__pltopt1__ at line 179 column 24
+    __pltopt__ at line 106 column 23
+    __plt__ at line 93 column 26
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+
+Program paused. Press enter to continue.
+
+For a student with scores 45 and 85, we predict an admission probability of 0.776289
+Expected value: 0.775 +/- 0.002
+
+p =
+
+   9.1033e-02
+   4.2260e-05
+   4.3909e-02
+   9.9042e-01
+   9.9820e-01
+   1.0798e-02
+   9.9898e-01
+   4.2324e-01
+   9.9971e-01
+   7.3540e-01
+   9.0968e-01
+   2.8599e-02
+   9.9927e-01
+   9.9985e-01
+   1.5604e-01
+   9.8096e-01
+   4.2773e-01
+   1.4880e-01
+   9.9971e-01
+   5.7430e-01
+   6.6839e-02
+   9.9863e-01
+   7.4183e-03
+   1.0116e-04
+   9.9188e-01
+   8.5505e-01
+   6.0032e-01
+   8.6520e-01
+   9.2394e-02
+   1.6829e-02
+   8.9713e-01
+   9.8104e-01
+   1.5491e-01
+   3.9194e-01
+   7.4129e-02
+   3.3112e-02
+   8.5226e-01
+   9.8756e-01
+   2.0400e-01
+   4.9580e-02
+   9.7030e-01
+   6.1185e-03
+   9.9946e-01
+   5.0231e-01
+   4.4889e-03
+   1.3703e-01
+   9.9299e-01
+   1.0000e+00
+   9.9920e-01
+   9.9999e-01
+   9.9811e-01
+   9.9950e-01
+   9.0502e-01
+   2.8062e-03
+   8.5230e-03
+   5.2892e-02
+   9.9986e-01
+   6.9370e-01
+   9.8550e-01
+   9.9573e-01
+   9.9953e-01
+   2.2238e-04
+   3.5056e-03
+   1.2707e-04
+   7.1658e-02
+   4.0879e-02
+   9.4442e-01
+   1.0071e-02
+   9.9995e-01
+   7.0931e-01
+   6.2041e-05
+   9.7740e-01
+   9.9989e-01
+   8.8428e-01
+   9.0524e-01
+   9.9995e-01
+   9.1769e-01
+   6.2675e-01
+   1.5841e-02
+   5.9949e-01
+   9.9928e-01
+   9.7347e-01
+   8.9454e-01
+   2.0320e-01
+   9.9994e-01
+   9.9798e-01
+   3.5456e-01
+   9.9982e-01
+   9.9997e-01
+   1.0696e-01
+   9.9994e-01
+   9.9999e-01
+   1.4244e-03
+   9.9932e-01
+   9.2458e-01
+   8.5865e-01
+   7.5088e-01
+   9.9990e-01
+   3.3928e-01
+   9.9975e-01
+
+ans =
+
+   0
+   0
+   0
+   1
+   1
+   0
+   1
+   0
+   1
+   1
+   1
+   0
+   1
+   1
+   0
+   1
+   0
+   0
+   1
+   1
+   0
+   1
+   0
+   0
+   1
+   1
+   1
+   1
+   0
+   0
+   1
+   1
+   0
+   0
+   0
+   0
+   1
+   1
+   0
+   0
+   1
+   0
+   1
+   1
+   0
+   0
+   1
+   1
+   1
+   1
+   1
+   1
+   1
+   0
+   0
+   0
+   1
+   1
+   1
+   1
+   1
+   0
+   0
+   0
+   0
+   0
+   1
+   0
+   1
+   1
+   0
+   1
+   1
+   1
+   1
+   1
+   1
+   1
+   0
+   1
+   1
+   1
+   1
+   0
+   1
+   1
+   0
+   1
+   1
+   0
+   1
+   1
+   0
+   1
+   1
+   1
+   1
+   1
+   0
+   1
+
+error: 'stop' undefined near line 19 column 1
+error: called from
+    predict at line 19 column 1
+    ex2 at line 144 column 3
+octave:13> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    newplot at line 215 column 1
+    plot at line 222 column 9
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    __plt__ at line 41 column 11
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ -0.100000 
+ -12.009217 
+ -11.262842 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 0.218330
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.042903 
+ 2.566234 
+ 2.646797 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+Cost at theta found by fminunc: 0.203498
+Expected cost (approx): 0.203
+theta: 
+ -25.161272 
+ 0.206233 
+ 0.201470 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __line__ at line 117 column 21
+    line at line 56 column 8
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    __line__ at line 117 column 21
+    line at line 56 column 8
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+
+Program paused. Press enter to continue.
+
+For a student with scores 45 and 85, we predict an admission probability of 0.776289
+Expected value: 0.775 +/- 0.002
+
+Train Accuracy: 89.000000
+Expected accuracy (approx): 89.0
+
+octave:14> ex2
+Plotting data with + indicating (y = 1) examples and o indicating (y = 0) examples.
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt__>__plt2__ at line 245 column 5
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    gca at line 56 column 7
+    line at line 51 column 9
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2 at line 36 column 1
+
+Program paused. Press enter to continue.
+
+Cost at initial theta (zeros): 0.693147
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros): 
+ -0.100000 
+ -12.009217 
+ -11.262842 
+Expected gradients (approx):
+ -0.1000
+ -12.0092
+ -11.2628
+
+Cost at test theta: 0.218330
+Expected cost (approx): 0.218
+Gradient at test theta: 
+ 0.042903 
+ 2.566234 
+ 2.646797 
+Expected gradients (approx):
+ 0.043
+ 2.566
+ 2.647
+
+Program paused. Press enter to continue.
+
+Cost at theta found by fminunc: 0.203498
+Expected cost (approx): 0.203
+theta: 
+ -25.161272 
+ 0.206233 
+ 0.201470 
+Expected theta (approx):
+ -25.161
+ 0.206
+ 0.201
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __plt__ at line 28 column 3
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    gcf at line 59 column 7
+    __plt__ at line 41 column 11
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2 at line 109 column 1
+
+
+Program paused. Press enter to continue.
+For a student with scores 45 and 85, we predict an admission probability of 0.776289
+Expected value: 0.775 +/- 0.002
+
+Train Accuracy: 89.000000
+Expected accuracy (approx): 89.0
+
+octave:15> submit 
+== Submitting solutions | Logistic Regression...
+Use token from last successful submission (david.benhaiem@laposte.net )? (Y/n): Y 
+== 
+==                                   Part Name |     Score | Feedback
+==                                   --------- |     ----- | --------
+==                            Sigmoid Function |   5 /   5 | Nice work!
+==                    Logistic Regression Cost |  30 /  30 | Nice work!
+==                Logistic Regression Gradient |  30 /  30 | Nice work!
+==                                     Predict |   5 /   5 | Nice work!
+==        Regularized Logistic Regression Cost |   0 /  15 | 
+==    Regularized Logistic Regression Gradient |   0 /  15 | 
+==                                   --------------------------------
+==                                             |  70 / 100 | 
+== 
+octave:16> ex2_reg
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __line__ at line 95 column 8
+    line at line 56 column 8
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2_reg at line 30 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    __line__ at line 117 column 21
+    line at line 56 column 8
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2_reg at line 30 column 1
+Cost at initial theta (zeros): 0.000000
+Expected cost (approx): 0.693
+Gradient at initial theta (zeros) - first five values only:
+ 0.000000 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx) - first five values only:
+ 0.0085
+ 0.0188
+ 0.0001
+ 0.0503
+ 0.0115
+
+Program paused. Press enter to continue.
+
+
+Cost at test theta (with lambda = 10): 0.000000
+Expected cost (approx): 3.16
+Gradient at test theta - first five values only:
+ 0.000000 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+ 0.000000 
+Expected gradients (approx) - first five values only:
+ 0.3460
+ 0.1614
+ 0.1948
+ 0.2269
+ 0.0922
+
+Program paused. Press enter to continue.
+
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __line__ at line 117 column 21
+    line at line 56 column 8
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2_reg at line 120 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+warning: called from
+    __line__ at line 120 column 16
+    line at line 56 column 8
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    plotDecisionBoundary at line 12 column 1
+    ex2_reg at line 120 column 1
+
+
+
+Train Accuracy: 49.152542
+Expected accuracy (with lambda = 1): 83.1 (approx)
+octave:17> octave:17> octave:17> octave:17> ex2_reg
+warning: opengl_renderer: Error 1286 occurred in init_gl_context
+warning: called from
+    __line__ at line 108 column 13
+    line at line 56 column 8
+    __plt__>__plt2vv__ at line 502 column 10
+    __plt__>__plt2__ at line 248 column 14
+    __plt__ at line 113 column 17
+    plot at line 223 column 10
+    plotData at line 20 column 1
+    ex2_reg at line 30 column 1
+warning: opengl_renderer: Error 1286 occurred drawing 'text' object
+parse error near line 21 of file /Users/davidbenhaiem/Documents/Machine Learning/Standford/Exercices/machine-learning-ex2/ex2/costFunctionReg.m
+
+  syntax error
+
+>>> 	lambda/(2.*m)*sum(theta[2:size(theta)]);
+                            ^
+
+error: called from
+    ex2_reg at line 68 column 12
+octave:17> 
+octave:17> x=[1,2,3]
+x =
+
+   1   2   3
+
+octave:18> x=[1,2,3] ;
